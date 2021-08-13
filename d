@@ -1,0 +1,92 @@
+<style>
+    .navegacao-img {
+        background-image: url("/root/img/capas/home.png");
+    }
+</style>
+
+<link rel="stylesheet" href="/root/css/home.css">
+<section class="cont-servicos-home">
+    <div><span>24 horas <br><a href="#/servicos"><button>Chame</button></a></span></div>
+    <div><span>Instalação<br><a href="#/servicos"><button>Contrate</button></a></span></div>
+    <div><span>Manutenção <br> <form target="blank" action="http://bit.ly/PortoFlex"><button type="submit">Contrate</button></form></span></div>
+    <div><span>Entrega <br> <form target="blank" action="http://bit.ly/PortoFlex"><button>Consulte</button></form></span></div>
+    <div><span>WhatsApp <br><form target="blank" action="http://bit.ly/PortoFlex"><button>Chame</button></form></span></div>
+    <div><span>Destaque <br><a href="#/servicos"><button>Contrate</button></a></span></div>
+</section>
+
+<section class="backg-conectados">
+    <div class=" cont-eficiencia">
+        <b> 24h</b> conectados à eficiência
+    </div>
+    <div class="cont-plantao24hrs">
+        conheça nossos serviços. <br> incluindo o plantão 24hrs!
+    </div>
+</section>
+
+<section class="wrapper">
+    <h1 class="verde">
+        Conheça a <br> nossa história
+    </h1>
+    <section class="flex cont-article-home ">
+        <div>
+            <article>
+                <p>
+                    A Porto Flex Comercio Varejista e Atacado de Mangueiras, Conexões e Equipamentos Hidráulicos LTDA,
+                    <span class="laranja">fundada em Maio de 2019</span> está localizada com loja física
+                    <span class="laranja">na cidade 
+                        de Itajaí - Santa Catarina</span>, onde contamos com uma estrutura completa com 429m².
+                </p>
+                <p>
+                    Problemas do dia a dia exigem energia e tomam tempo, <span class="laranja">a Porto flex</span> está onde você <span class="laranja"> encontra as soluções</span>: todas as conexões, o tempo todo.
+                </p>
+
+            </article>
+
+        </div>
+        <div>
+            <article>
+                <p>
+                    Há uma década atuamos com um objetivo: garantir a tranquilidade dos nossos clientes <span class="laranja">através da qualidade </span> de nosso serviços de forma comprometida, ágil e eficaz.
+                </p>
+                <p>
+                    Segurança, Precisão e Flexibilidade são resultados do treinamento incansável da nossa equipe na busca por melhorias contínuas para que, <span class="laranja">onde as nossas conexões</span> passem, seja impossível ocorrer falhas.
+                </p>
+                <p>
+                    Conectados a eficiência estamos prontos para novos desafios que <span class="laranja"> determinarão o nosso futuro.</span>
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="sectiom-conexao-home">
+        <div class="direita">
+            <spam class="encontrou-conexao">
+
+                Você encontrou<br> a conexão?
+            </spam>
+            <span class="dica">
+
+                <br> Dica: Leia apenas as <br> palavras <span class="laranja">  laranjas</span> do texto!
+            </span>
+
+        </div>
+        <div class="laranja esquerda">
+            <span class="laranja">                
+                Essa é <br> a nossa <br> missão
+                <img  src="/root/img/icones/Logo_topo_colorida.png" alt=""> 
+              
+
+         
+            </span>
+        </div>
+
+    </section>
+</section>
+
+
+<script>
+    function scrollWin() {
+        window.scrollTo(0, 0);
+    }
+    scrollWin();
+</script>
