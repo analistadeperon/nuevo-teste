@@ -1,0 +1,67 @@
+<style>
+    .navegacao-img {
+        background-image: url("/root/img/capas/contato.png");
+    }
+</style>
+<link rel="stylesheet" href="/root/css/contato.css">
+<!--
+    <section class="wrapper">
+        <p>{{title}}</p>
+    </section>
+-->
+
+<section class="flex wrapper cont-contato">
+    <div class="w50  p-3">
+        <h1 class="mb-5">
+            Agora você pode tirar suas dúvidas ou solicitar um orçamento!
+        </h1>
+        <p class="fontTextos">
+            Preencha atentamente o formulário abaixo <span class="texto"> </span> e conte-nos suas dúvidas sobre algum produto ou serviço. Caso não tenha encontrado o produto que deseja basta indicar nos campos disponíveis <span class="texto"> </span>            ou, se preferir, clique no WhatsApp!
+        </p>
+    </div>
+    <div class="w50 p-3">
+        <form action="script.php" method="POST">
+
+
+            <input placeholder="    Seu nome" type="text" name="nome">
+            <div class="conteiner-form">
+                <input class="email" placeholder="    Seu e-mail" type="text" name="email">
+                <input class="telefone" placeholder="    Seu telefone" type="text" name="telefone">
+            </div>
+            <select style="color: #777;" name="assunto">
+               <option value="Nenhum valor foi selecionado">Sobre o que deseja falar?</option>
+               <option value="Financeiro">Orçamento</option>
+               <option value="Comercial">Sugestões e elogios</option>
+               <option value="Manutenção">Serviços</option>
+           </select>
+
+            <textarea placeholder="    Deixe sua mensagem" type="text" name="mensagem"></textarea>
+
+            <div class="d-flex justify-content-end">
+                <button type="submit" name="BTEnvia"> <img src="/root/img/icones/seta-enviar.png" alt="">Pode enviar!</button>
+            </div>
+            <!--<input type="reset" name="BTApaga" value="Apagar">-->
+
+
+        </form>
+        <div id="result"></div>
+    </div>
+</section>
+
+
+<script>
+    function scrollWin() {
+        window.scrollTo(0, 0);
+    }
+    scrollWin();
+</script>
+<script>
+    function alerta() {
+        alert('E-Mail enviado com sucesso!');
+        retornar();
+    }
+
+    function retornar() {
+        window.location.href = 'https://portoflexconexoes.com/#/faleconosco'
+    }
+</script>
