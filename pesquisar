@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        mark {
+            background: orange;
+            color: black;
+        }
+    </style>
+</head>
+
+<body style="width: 50%; max-width: 500px; min-width: 300px; margin: auto;">
+    <label for="input">Procure algo aqui</label>
+    <br>
+    <input id="input" type="text">
+    <div id="context">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/mark.js/7.0.0/jquery.mark.min.js"></script>
+    <script>
+        $(function() {
+            $("#input").on("input.highlight", function() {
+                // Determine o termo de pesquisa especificado
+                var search = $(this).val();
+                // Highlight termo de pesquisa dentro de um contexto específico
+                $("#context").unmark().mark(search);
+            }).trigger("input.highlight").focus();
+        });
+    </script>
+
+</body>
+
+</html>
