@@ -1,0 +1,218 @@
+<style>
+    .navegacao-img {
+        background-image: url("/root/img/capas/home.png");
+    }
+</style>
+<link rel="stylesheet" href="/root/css/acessorioindustia.css">
+
+<!--
+    <section class="wrapper">
+        
+        <p>{{title}}</p>
+    </section>
+    
+-->
+<div class="cont-aces-industria wrapper">
+
+    <div>
+        <h1>
+            Produtos que vão melhorar todo desempenho!
+        </h1>
+    </div>
+    <div>
+        <p class="fontTextos">
+
+            A qualidade influencia diretamente no desempenho. Por isso é imprescindível ficar atento ao processo de fabricação dos produtos e sua origem, que devem seguir as normas estabelaceidas pelos órgãos reguladores, para que assim tenha a segurança e eficácia
+            especificadas.
+        </p>
+    </div>
+</div>
+<div class="wrapper" id="Val-tit">Valvulas</div>
+<!--wrapper-industria-->
+<section class="d-flex">
+
+    <div class="wrapper" id="content">
+        <!--wrapper-industria-->
+        <section class="cont-servicos-home">
+
+            <div id="valvula" class="div-clicado " onclick="animacaoCliqueCategorias('valvula','background-image-valvula' )"><span>Válvulas <br><button onclick="btnValvulas()">Conheça a linha</button></span></div>
+            <div id="montagemIndustrial" class="div-clique background-image-montagen-industrial" onclick="animacaoCliqueCategorias('montagemIndustrial','background-image-montagen-industrial')"><span>Acessórios para Montagem Industrial <br><button onclick="btnMontagemINdustrial()">Conheça a linha</button></span></div>
+            <div id="pinturas" class="div-clique background-image-boracharia" onclick="animacaoCliqueCategorias('pinturas', 'background-image-boracharia')"><span>Acessórios para Oficinas, Pinturas e Borracharias <br><button onclick="btnAcessoriosOficinas()">Conheça a linha</button></span></div>
+            <div id="lavacao" class="div-clique background-image-lavacao" onclick="animacaoCliqueCategorias('lavacao', 'background-image-lavacao')"><span>Acessórios para Lavação e Engraxadeiras<br> <button onclick="btnLavacao() ">Conheça a linha</button></span></div>
+            <div id="coreias" class="div-clique background-image-coreias" onclick="animacaoCliqueCategorias('coreias' ,'background-image-coreias')"><span>Correias Industriais<br><button onclick="btnCoreias()">Conheça a linha</button></span></div>
+            <div id="equipamentosHidraulicos" class="div-clique background-image-equipamentos-hidraulcos" onclick="animacaoCliqueCategorias('equipamentosHidraulicos','background-image-equipamentos-hidraulcos')"><span>Equipamentos Hidráulicos<br><button onclick="btnEquipamentosHidraulicos()">Conheça a linha</button></span></div>
+            <div id="pneumatico" class="div-clique background-image-pinelmatico" onclick="animacaoCliqueCategorias('pneumatico' ,'background-image-pinelmatico')"><span>Conjuntos Pneumáticos<br><button onclick="btnConjuntosPneumaticos()">Conheça a linha</button></span></div>
+            <div id="conexaoHidraulica" class="div-clique background-image-conexoes-hidraulicas" onclick="animacaoCliqueCategorias('conexaoHidraulica','background-image-conexoes-hidraulicas')"><span>Conexões hidráulicas<br><button onclick="btnConexoesHidraulicas()">Conheça a linha</button></span></div>
+            <div id="filtros" class="div-clique background-image-filtros-acessorios" onclick="animacaoCliqueCategorias('filtros','background-image-filtros-acessorios')"><span>Filtros e acessórios<br> <button onclick="btnFiltrosAcessorios()">Conheça a linha</button></span></div>
+            <div id="mangueiras" class="div-clique background-image-mangueiras" onclick="animacaoCliqueCategorias('mangueiras','background-image-mangueiras')"><span>Mangueiras diversas<br><button onclick="btnMangueirasDiversas()">Conheça a linha</button></span></div>
+
+        </section>
+
+        <!--  <div class="wrapper " id="anterior"><i class="fas fa-caret-left fa-3x"></i>anterios</div>
+        <div class="wrapper-industria" id="content"></div>
+        <div class="wrapper " id="proximo"><i class="fas fa-caret-right fa-3x"></i>posterior</div>
+ -->
+        <section class="cont-servicos-home-movel cont-servicos-home-1-movel ">
+
+            <div onclick="btnValvulas()"></div>
+            <div onclick="btnMontagemINdustrial()"></div>
+            <div onclick="btnAcessoriosOficinas()"></div>
+            <div onclick="btnLavacao() "></div>
+            <div onclick="btnCoreias()"></div>
+            <div onclick="btnEquipamentosHidraulicos()"></div>
+            <div onclick="btnConjuntosPneumaticos()"></div>
+            <div onclick="btnConexoesHidraulicas()"></div>
+            <div onclick="btnFiltrosAcessorios()"></div>
+            <div onclick="btnMangueirasDiversas()"></div>
+
+
+        </section>
+
+
+    </div>
+
+
+
+
+</section>
+<div class="wrapper">
+    <!--wrapper-industria-->
+
+
+    <div class=" traco-verde"></div>
+
+    <section class="cont-conte-center">
+        <div style=" height: 220px; overflow-y: scroll; ">
+
+
+
+            <div id="btn-selecao-1"></div>
+            <div id="btn-selecao-2"></div>
+            <div id="btn-selecao-3"></div>
+            <div id="btn-selecao-4"></div>
+            <div id="btn-selecao-5"></div>
+            <div id="btn-selecao-6"></div>
+            <div id="btn-selecao-7"></div>
+            <div id="btn-selecao-8"></div>
+            <div id="btn-selecao-9"></div>
+            <div id="btn-selecao-10"></div>
+            <div id="btn-selecao-11"></div>
+            <div id="btn-selecao-12"></div>
+            <div id="btn-selecao-13"></div>
+
+
+        </div>
+
+        <div class="div-instalcao">
+            <p class="fontTextos" style=" text-align: justify;" id="descricaoProduto">Texto não carregado, recarregue a página</p>
+        </div>
+    </section>
+
+
+    <section class="cont-industria ">
+        <div class="cont-btn-modal-1" data-toggle="modal" data-target="#ind-pord-1"></div>
+        <div class="cont-btn-modal-2" data-toggle="modal" data-target="#ind-pord-2"></div>
+        <div class="cont-btn-modal-3" data-toggle="modal" data-target="#ind-pord-3"></div>
+        <div class="cont-btn-modal-4" data-toggle="modal" data-target="#ind-pord-4"></div>
+        <div class="cont-btn-modal-5 cont-btn-modal" data-toggle="modal" data-target="#ind-pord-5"></div>
+    </section>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="ind-pord-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-img modal-body" id="modal1">
+                    Não foi possível carregar a imagem
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="ind-pord-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+          </button>
+                </div>
+                <div class="modal-img modal-body" id="modal2">
+                    Não foi possível carregar a imagem
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="ind-pord-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+          </button>
+                </div>
+                <div class="modal-img modal-body" id="modal3">
+                    Não foi possível carregar a imagem
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="ind-pord-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+          </button>
+                </div>
+                <div class="modal-img modal-body" id="modal4">
+                    Não foi possível carregar a imagem
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="ind-pord-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+            
+          </button>
+                </div>
+                <div class="modal-img modal-body" id="modal5">
+                    Não foi possível carregar a imagem.
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="/root/js/acessorioIndustria.js"></script>
+<script>
+    function scrollWin() {
+        window.scrollTo(0, 0);
+    }
+    scrollWin();
+</script>
